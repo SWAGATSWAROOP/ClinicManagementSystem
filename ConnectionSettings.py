@@ -102,8 +102,7 @@ delete_course = """
 DELETE FROM course 
 WHERE course_id = 20;
 """
-# execute_query(connection,create_teacher_table)
-# execute_query(connection,pop_teacher)
+
 results = read_query(connection, "SELECT * FROM teacher")
 
 from_db = []
